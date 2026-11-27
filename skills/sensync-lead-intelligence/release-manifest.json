@@ -1,0 +1,33 @@
+{
+  "skill": "sensync-lead-intelligence",
+  "version": "1.0.0",
+  "source_repo": "liuxuan90/sensync-agent-skills",
+  "source_ref": "stable",
+  "source_path": "skills/sensync-lead-intelligence",
+  "change_types": [
+    "rules",
+    "scripts",
+    "schema",
+    "workflow"
+  ],
+  "review_before_update": true,
+  "files": {
+    "agents/openai.yaml": "7b47b66eddb90fee1fd5099928f55d8f4c2a289a47e9354550c4158a79f3b57c",
+    "assets/company-record.schema.json": "3ee789edbaf9a69ee0083ea4d03162322f2427b2b4f4338b3a7487695fe2f20e",
+    "assets/fallback-package.md": "d766f6bdd934bede0a4def19b053d7b7260e26aa50a5cbe07b8b8ff3b6e02b74",
+    "assets/run-brief-template.md": "bdb0d711f609ec457deb32aee2742185db7c66fc91b48fa3730ab4f5508793ef",
+    "assets/run-report-template.md": "59baae0337557885139e20d83414f6b74e8cf526816a601008f1392bb755f931",
+    "references/contact-email-policy.md": "b036d8f3c618060e35dc4cccdc82f207f8f28b1b9c9912a99da43bf86ce4a24e",
+    "references/evidence-policy.md": "a07f38c23010f6287202ded62ea3cd688c7416d483246463653e370a8eb3f8a3",
+    "references/feedback-and-versioning.md": "757d03f45077a2fc00f2d301a93fdc68d4abeaad04f98e7a135e748cbc060ea8",
+    "references/first-email-policy.md": "04f1c11e529345c2577661d7def16ec1ab5e558dac69346ec1983b629329b239",
+    "references/maintenance.md": "012e09514281ce070442c650c3cded968cc760c3196f6e086b48b632aacd4416",
+    "references/product-playbooks.md": "60ca335bc3326c3a2fc9aa857307b4a3aab03d6ca2762176a0eed925820fe20c",
+    "references/qualification-and-scoring.md": "70512dd3d4b8f85272ee91ec977a85b0048581ea6151d074c1922aae855809e1",
+    "references/sensync-company-facts.md": "8328811099e5672b3393604f2011bd287f2a38ada52101d829c3a59f0ed732e7",
+    "references/workbook-schema.md": "3132bcdda02c61cbf8e2367a8ecfdec48df8fdb8d563604d3939b03302a5bfc8",
+    "scripts/manage_skill.py": "2ced1e6bafb9e0b2ac5d0707fa2366f8db478289372b55ae2d868348dbf94f52",
+    "scripts/validate_records.py": "1ce466f11809896b38368a6fcc176ceb5fb1a34ecba9bd41184278a0955b18f5",
+    "SKILL.md": "b1aa7ccf14c3a7464aa776e3675b2039df82d384788ba406644852fdc0cfb73b"
+  }
+}

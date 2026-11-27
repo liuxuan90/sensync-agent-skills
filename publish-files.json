@@ -1,0 +1,31 @@
+{
+  "files": [
+    ".gitattributes",
+    ".gitignore",
+    "CHANGELOG.md",
+    "docs/ACCEPTANCE.md",
+    "docs/PROVENANCE.md",
+    "docs/RELEASE_PROCESS.md",
+    "README.md",
+    "skills/sensync-lead-intelligence/agents/openai.yaml",
+    "skills/sensync-lead-intelligence/assets/company-record.schema.json",
+    "skills/sensync-lead-intelligence/assets/fallback-package.md",
+    "skills/sensync-lead-intelligence/assets/run-brief-template.md",
+    "skills/sensync-lead-intelligence/assets/run-report-template.md",
+    "skills/sensync-lead-intelligence/references/contact-email-policy.md",
+    "skills/sensync-lead-intelligence/references/evidence-policy.md",
+    "skills/sensync-lead-intelligence/references/feedback-and-versioning.md",
+    "skills/sensync-lead-intelligence/references/first-email-policy.md",
+    "skills/sensync-lead-intelligence/references/maintenance.md",
+    "skills/sensync-lead-intelligence/references/product-playbooks.md",
+    "skills/sensync-lead-intelligence/references/qualification-and-scoring.md",
+    "skills/sensync-lead-intelligence/references/sensync-company-facts.md",
+    "skills/sensync-lead-intelligence/references/workbook-schema.md",
+    "skills/sensync-lead-intelligence/release-manifest.json",
+    "skills/sensync-lead-intelligence/scripts/manage_skill.py",
+    "skills/sensync-lead-intelligence/scripts/validate_records.py",
+    "skills/sensync-lead-intelligence/SKILL.md",
+    "tools/build_skill_manifest.py",
+    "publish-files.json"
+  ]
+}

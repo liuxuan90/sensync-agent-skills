@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+local-data/
+exports/
+secrets/
+.sensync-skill-backups/

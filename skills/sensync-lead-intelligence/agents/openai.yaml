@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sensync Lead Intelligence"
+  short_description: "Research evidence-backed Sensync B2B opportunities"
+  default_prompt: "Use $sensync-lead-intelligence to research and qualify prospects for my specified country and product brief."
