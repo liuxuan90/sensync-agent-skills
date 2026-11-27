@@ -22,6 +22,10 @@ def main():
  for path in sorted(SKILL.rglob('*')):
   if path.is_symlink():raise ValueError('No package symlinks')
   if path.is_file() and path.name!='release-manifest.json' and '__pycache__' not in path.parts:
+   if path.suffix in {'.md','.json','.py','.yaml','.yml','.txt'}:
+    data=path.read_bytes()
+    normalized=data.replace(b'\r\n',b'\n')
+    if data!=normalized:path.write_bytes(normalized)
    files[path.relative_to(SKILL).as_posix()]=hashlib.sha256(path.read_bytes()).hexdigest()
  payload={'skill':'sensync-lead-intelligence','version':match.group(1),'source_repo':'liuxuan90/sensync-agent-skills','source_ref':'stable','source_path':'skills/sensync-lead-intelligence','change_types':changes,'review_before_update':a.review_required,'files':files}
  (SKILL/'release-manifest.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')

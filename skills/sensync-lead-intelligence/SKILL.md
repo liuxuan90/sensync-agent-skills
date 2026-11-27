@@ -2,7 +2,7 @@
 name: sensync-lead-intelligence
 description: Research and qualify overseas B2B prospects for Sensync winding machines, custom coils and animal RFID products; produce evidence-backed company and product opportunities, contacts and first-email drafts in a Chinese workbook. Also use for explicitly requested Skill checks, optimization or updates. Does not send outreach or run sales follow-ups.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Sensync Lead Intelligence

@@ -2,7 +2,7 @@
 
 东莞市智感机械电子科技有限公司（Dongguan Sensync Technology Ltd.）海外B2B客户开发与商业情报。
 
-正式Skill：**sensync-lead-intelligence** · 版本 **v1.0.0**
+正式Skill：**sensync-lead-intelligence** · 版本 **v1.0.1**
 
 覆盖自动化绕线设备、定制电子线圈、RFID玻璃管芯片、RFID动物耳标。统一企业档案，按具体产品机会研究；默认交付一个包含六张中文工作表的Excel，机会与证据列并入企业背调。国家、产品重点与数量由使用者指定。
 

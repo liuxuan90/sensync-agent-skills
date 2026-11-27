@@ -1,19 +1,17 @@
 {
   "skill": "sensync-lead-intelligence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "source_repo": "liuxuan90/sensync-agent-skills",
   "source_ref": "stable",
   "source_path": "skills/sensync-lead-intelligence",
   "change_types": [
-    "rules",
     "scripts",
-    "schema",
-    "workflow"
+    "packaging"
   ],
   "review_before_update": true,
   "files": {
     "agents/openai.yaml": "7b47b66eddb90fee1fd5099928f55d8f4c2a289a47e9354550c4158a79f3b57c",
-    "assets/company-record.schema.json": "3ee789edbaf9a69ee0083ea4d03162322f2427b2b4f4338b3a7487695fe2f20e",
+    "assets/company-record.schema.json": "46ede782816763281dab8a474c2ac1a2de61a8e2364bddc02f956cb8fdd925ec",
     "assets/fallback-package.md": "d766f6bdd934bede0a4def19b053d7b7260e26aa50a5cbe07b8b8ff3b6e02b74",
     "assets/run-brief-template.md": "bdb0d711f609ec457deb32aee2742185db7c66fc91b48fa3730ab4f5508793ef",
     "assets/run-report-template.md": "59baae0337557885139e20d83414f6b74e8cf526816a601008f1392bb755f931",
@@ -28,6 +26,6 @@
     "references/workbook-schema.md": "3132bcdda02c61cbf8e2367a8ecfdec48df8fdb8d563604d3939b03302a5bfc8",
     "scripts/manage_skill.py": "2ced1e6bafb9e0b2ac5d0707fa2366f8db478289372b55ae2d868348dbf94f52",
     "scripts/validate_records.py": "1ce466f11809896b38368a6fcc176ceb5fb1a34ecba9bd41184278a0955b18f5",
-    "SKILL.md": "b1aa7ccf14c3a7464aa776e3675b2039df82d384788ba406644852fdc0cfb73b"
+    "SKILL.md": "2072febec51a751dda7318a71bc62318be2be581dd7ea7d3b8214d103e4fac9c"
   }
 }
