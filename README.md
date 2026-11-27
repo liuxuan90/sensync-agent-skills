@@ -13,6 +13,7 @@
 ```text
 从 https://github.com/liuxuan90/sensync-agent-skills 的 stable 分支安装
 skills/sensync-lead-intelligence，保留整个Skill目录及相对结构。
+先解析stable当前提交SHA，再从同一SHA下载清单和目录，避免分支缓存造成版本混用。
 使用当前Agent实际支持的Skill安装目录，不要假定所有Agent使用Codex路径。
 安装前阅读README和SKILL.md，安装后检查release-manifest.json全部SHA-256，
 运行python scripts/manage_skill.py verify；刷新Skill索引或开启新会话后确认可调用。
@@ -24,13 +25,14 @@ skills/sensync-lead-intelligence，保留整个Skill目录及相对结构。
 使用Codex的Skill Installer：
 
 ```text
-$skill-installer 安装 https://github.com/liuxuan90/sensync-agent-skills/tree/stable/skills/sensync-lead-intelligence
+$skill-installer 安装 liuxuan90/sensync-agent-skills 中的 skills/sensync-lead-intelligence。
+先解析stable的当前提交SHA，使用该SHA作为--ref安装，再校验release-manifest.json。
 ```
 
 有官方安装脚本的环境也可运行（按实际环境替换路径）：
 
 ```text
-python <Codex技能目录>/.system/skill-installer/scripts/install-skill-from-github.py --repo liuxuan90/sensync-agent-skills --ref stable --path skills/sensync-lead-intelligence
+python <Codex技能目录>/.system/skill-installer/scripts/install-skill-from-github.py --repo liuxuan90/sensync-agent-skills --ref <STABLE_COMMIT_SHA> --path skills/sensync-lead-intelligence
 ```
 
 ### 其他兼容Agent
